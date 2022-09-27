@@ -1,6 +1,58 @@
-.FirstProofChange {
-  font-family: "Montserrat Alternates", sans-serif;
+.container {
+  background-color: #f3f3f3;
+  border-radius: 2vw;
+  margin-top: 4vw;
+  padding-bottom: 4vw;
+  padding-top: 2vw;
+  margin-bottom: 4vw;
 }
-.SecondProofChange {
-  font-family: "Reem Kufi", sans-serif;
+.container > .row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.container form > div {
+  margin-top: 2vw;
+}
+.container form > div > label {
+  margin-bottom: 1vw;
+}
+.container form > .date {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  column-gap: 2vw;
+}
+.container form > h3 {
+  margin-left: 15vw;
+  margin-top: 3vw;
+}
+.container form > div.places {
+  margin-top: 2vw;
+}
+.container form > div.email > div.form-text {
+  margin-top: 0.2vw;
+  font-size: large;
+}
+.container form > div.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.container form > div.grid > .item3 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.container form > div.grid > .item3 > .col-12 {
+  list-style: none;
+  background-color: #fff;
+  border-radius: 0.5vw;
+  border: 1px solid grey;
+  padding: 2vw;
+}
+.container form > div.grid > .item3 > h5,
+.container form > div.grid > .item2 > h5,
+.container form > div.grid > .item1 > h5 {
+  margin-bottom: 2vw;
 }
