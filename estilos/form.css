@@ -30,7 +30,10 @@
 .container form > div.places {
   margin-top: 2vw;
 }
-.container form > div.email > div.form-text {
+.container form > div.email > div.form-text,
+.container form > div.grid > .item3 > .col-12 > .form-text,
+.container form > div.grid > .item1 > .col-12 > .form-text,
+.container form > div.grid > .item2 > .col-12 > .form-text {
   margin-top: 0.2vw;
   font-size: large;
 }
@@ -44,15 +47,28 @@
   grid-column-start: 2;
   grid-column-end: 3;
 }
-.container form > div.grid > .item3 > .col-12 {
+.container form > div.grid > .item3,
+.container form > div.grid > .item2,
+.container form > div.grid > .item1 {
   list-style: none;
   background-color: #fff;
   border-radius: 0.5vw;
-  border: 1px solid grey;
-  padding: 2vw;
+  border: 1px solid #dcdde1;
+  padding: 1vw;
+  margin: 0.5vw;
 }
 .container form > div.grid > .item3 > h5,
 .container form > div.grid > .item2 > h5,
 .container form > div.grid > .item1 > h5 {
   margin-bottom: 2vw;
+}
+.container form > div.grid > .item3 > .col-12 > label {
+  font-size: larger;
+  padding-top: 1vw;
+}
+.container form > div.termsandconditions {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 0.5vw;
+  font-size: large;
 }

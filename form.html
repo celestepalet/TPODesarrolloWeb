@@ -97,15 +97,37 @@
           </div>
           <div class="col-10 grid">
             <div class="item1">
-              <h5>Habitaciones</h5>
+              <div class="col-12">
+                <label for="rooms" class="form-label rooms"
+                  ><h5>Habitaciones</h5></label
+                >
+                <input
+                  type="range"
+                  class="form-range"
+                  id="rooms"
+                  min="1"
+                  max="5"
+                />
+                <div class="form-text">Máx. 5</div>
+              </div>
             </div>
             <div class="item2">
-              <h5>Alquilar un Auto</h5>
+              <div class="col-12">
+                <label for="cars" class="form-label cars"><h5>Autos</h5></label>
+                <input
+                  type="range"
+                  class="form-range"
+                  id="cars"
+                  min="0"
+                  max="5"
+                />
+                <div class="form-text">Máx. 5</div>
+              </div>
             </div>
             <div class="item3">
-              <h5>Personas</h5>
               <div class="col-12">
-                <label for="adults" class="form-label">Adultos</label>
+                <h5>Personas</h5>
+                <label for="adults" class="form-label adults">Adultos</label>
                 <input
                   type="range"
                   class="form-range"
@@ -113,14 +135,18 @@
                   min="1"
                   max="10"
                 />
-                <label for="menores" class="form-label">Menores</label>
+                <div class="form-text">Desde 18 Años</div>
+                <label for="children" class="form-label children"
+                  >Menores</label
+                >
                 <input
                   type="range"
                   class="form-range"
-                  id="menores"
+                  id="children"
                   min="1"
                   max="10"
                 />
+                <div class="form-text">Hasta 17 Años</div>
               </div>
             </div>
           </div>
@@ -136,6 +162,12 @@
               ></textarea>
               <label for="floatingLabel">Dejá un Comentario</label>
             </div>
+          </div>
+          <div class="col-10 termsandconditions">
+            <input type="checkbox" name="termsandconditions" id="1" /><span
+              >Estoy de acuerdo con los
+              <a href="http://">terminos y condiciones</a></span
+            >
           </div>
         </form>
       </div>
