@@ -15,7 +15,7 @@ font-family: 'Raleway', sans-serif;
 
 a {
     color: aliceblue;
-    margin-top: 100px;
+    margin-top: 300px;
     margin-left: 200px;
 }
 a:link {
@@ -78,6 +78,8 @@ div.gallery {
   * {
     box-sizing: border-box;
   }
+
+  
   
   .responsive {
     padding: 0 6px;
