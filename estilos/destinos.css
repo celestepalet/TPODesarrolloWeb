@@ -4,14 +4,13 @@
     font-family: 'Raleway', sans-serif;
 }
 
-body {
+#bdestinos {
     background-image: url('../imagenes/journey.jpg');
     height: auto;
     width: auto;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 /*Se creo una clase para dar formato a cada link
 y poder usar con Flexbox*/
