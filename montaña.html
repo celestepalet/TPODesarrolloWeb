@@ -2,82 +2,157 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/montaña.css">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viajando</title>
+  <link rel="stylesheet" href="estilos/montaña.css">
+  <link rel="icon" href="./imagenes/iconoAvion.png">
+  <script src="./JavaScript/js.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1e6f9fe1ef.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <a href="montañas.html">Inicio</a>
-        <a href="destinos.html">Destinos</a>
-        <a href="empresa.html">Sobre Nosotros</a>
-        <a href="contacto.html">Contacto</a>
-        <h1>TRAVEL SITE</h1><br><br><br><br>
-        <h2>Visitá  Bariloche</h2>
-        <h3>Tu aventura<br>comienza aquí</h3>
-   <br><br><br><br><br><br>
-       
-    </header>
-    <main>
-        <br><br><br><br><br><br>
-        <h4>Actividades</h4>
-
-        
-        
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="imagenes/hotel.jpg">
-              <img src="imagenes/hotel.jpg" alt="Cinque Terre" width="600" height="400">
-            </a>
-            <div class="desc">Spa Hotel Llao Llao</div>
+  <!-- navbar -->
+  <header class="header">
+    <div class="logo">
+      <a href="./index.html"><img src="./imagenes/iconoAvionGrande.png" alt="logo de la marca" ALIGN=center>
+        VIAJANDO</a>
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="./index.html">Inicio</a></li>
+        <li class="desplegable"><a href="">Destinos</a>
+          <ul class="menu-desplegable">
+            <li><a class="item-desplegable" href="./montaña.html">Montaña</a></li>
+            <li><a class="item-desplegable" href="./playa.html">Playa</a></li>
+            <li><a class="item-desplegable" href="./ciudad.html">Ciudad</a></li>
+          </ul>
+        </li>
+        <li><a href="./empresa.html">Sobre Nosotros</a></li>
+      </ul>
+    </nav>
+    <a href="./contacto.html" class="btn"><button>Contacto</button></a>
+  </header>
+  <!-- termina navbar -->
+  <main>
+    <!-- inicio pagina -->
+    <div class="tituloInicio">
+      <h1 style="font-size: 60px;">MONTAÑAS</h1>
+      <p style="font-size: 25px;">Animate a recorrer bosque, lagos y llegar más alto.</p>
+    </div>
+    <!-- fin inicio pagina -->
+    <!-- galería de imagenes -->
+    <h4>Actividades</h4>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="imagenes/hotel.jpg">
+          <img src="imagenes/hotel.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Spa Hotel Llao Llao</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="imagenes/familia.jpg">
+          <img src="imagenes/familia.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Lago Nahuel Huapi</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="imagenes/caminata.jpg">
+          <img src="imagenes/caminata.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Senderismo</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="imagenes/sky.jpg">
+          <img src="imagenes/sky.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Sky en el Cerro Catedral</div>
+      </div>
+    </div>
+    <!-- fin galería de imagenes -->
+    <div class="clearfix"></div>
+    <div style="padding:6px;">
+      <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than
+        700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side
+        by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+      <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+    </div>
+  </main>
+  
+  <!-- pie de página -->
+  <footer>
+    <div class="container-footer-all">
+      <div class="container-body">
+        <div class="colum1">
+          <h1>Mas información de la compañía</h1>
+          <p>Esta compañía se dedica a la venta de paquetes de viajes con un
+            conjunto de cosas que no se lo que estoy escribiendo, este
+            texto es solo para llenara informacion en el cuadro de informacion
+            de la compañia.</p>
+        </div>
+        <div class="colum2">
+          <h1>Redes Sociales</h1>
+          <div class="row">
+            <i class="fa-brands fa-facebook"></i>
+            <label><a href="https://www.facebook.com/">Síguenos en Facebook</a></label>
+          </div>
+          <div class="row">
+            <i class="fa-brands fa-twitter"></i>
+            <label><a href="https://twitter.com/?lang=es">Síguenos en Twitter</a></label>
+          </div>
+          <div class="row">
+            <i class="fa-brands fa-instagram"></i>
+            <label><a href="https://www.instagram.com/?hl=es-la">Síguenos en Instagram</a></label>
+          </div>
+          <div class="row">
+            <i class="fa-brands fa-pinterest"></i>
+            <label><a href="https://ar.pinterest.com/">Síguenos en Pinterest</a></label>
           </div>
         </div>
-        
-        
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="imagenes/familia.jpg">
-              <img src="imagenes/familia.jpg" alt="Forest" width="600" height="400">
-            </a>
-            <div class="desc">Lago Nahuel Huapi</div>
+        <div class="colum3">
+          <h1>Información Contactos</h1>
+          <div class="row2">
+            <i class="fa-solid fa-house"></i>
+            <label>La Romana 27, CABA, Argentina</label>
+          </div>
+          <div class="row2">
+            <i class="fa-solid fa-mobile"></i>
+            <label>+1-829-395-2064</label>
+          </div>
+          <div class="row2">
+            <i class="fa-solid fa-envelope"></i>
+            <label>viajando@gmail.com</label>
           </div>
         </div>
-        
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="imagenes/caminata.jpg">
-              <img src="imagenes/caminata.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-            <div class="desc">Senderismo</div>
-          </div>
+      </div>
+    </div>
+    <div class="container-footer">
+      <div class="footer">
+        <div class="copyright">
+          © 2022 Todos los Derechos Reservados | <a href="./index.html">VIAJANDO</a>
         </div>
-        
-        <div class="responsive">
-          <div class="gallery">
-            <a target="_blank" href="imagenes/sky.jpg">
-              <img src="imagenes/sky.jpg" alt="Mountains" width="600" height="400">
-            </a>
-            <div class="desc">Sky en el Cerro Catedral</div>
-          </div>
+        <div class="information">
+          <a href="./empresa.html">Información Compañía</a> | <a href="pyp.html">Privacidad</a>
+          | <a href="./tyc.html">Términos y Condiciones</a>
         </div>
-        
-        <div class="clearfix"></div>
-        
-        <div style="padding:6px;">
-          <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-          <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-        </div>
-    </main>
-    <footer>
-
-    </footer>
+      </div>
+    </div>
+  </footer>
+  <!-- fin pie de página -->
 </body>
 
 </html>

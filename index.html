@@ -1,21 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./estilos/montaña.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
-  
-  </head>
-  <body>
-    <a href="form.html">
-      <p>form.html</p>
-    <a href="destinos.html">Destinos</a>
-    </a>
-  </body>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viajando</title>
+  <link rel="stylesheet" href="./estilos/estilos.css">
+  <link rel="icon" href="./imagenes/iconoAvion.png">
+  <script src="./JavaScript/js.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1e6f9fe1ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="./index.html"><img src="./imagenes/iconoAvionGrande.png" alt="logo de la marca" ALIGN=center>
+        VIAJANDO</a>
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="./index.html">Inicio</a></li>
+        <li class="desplegable"><a href="">Destinos</a>
+          <ul class="menu-desplegable">
+            <li><a class="item-desplegable" href="./montaña.html">Montaña</a></li>
+            <li><a class="item-desplegable" href="./playa.html">Playa</a></li>
+            <li><a class="item-desplegable" href="./ciudad.html">Ciudad</a></li>
+          </ul>
+        </li>
+        <li><a href="./empresa.html">Sobre Nosotros</a></li>
+      </ul>
+    </nav>
+    <a href="./contacto.html" class="btn"><button>Contacto</button></a>
+  </header>
+
+  <main>
+    <div class="tituloInicio">
+      <h1 style="font-size: 60px;">VIAJANDO</h1>
+      <p style="font-size: 25px;">Tu aventura comienza aquí</p>
+
+    </div>
+    <!-- tarjetas -->
+
+    <div class="presentacion-destinos">
+      <h4><br> ¿Qué tenes en mente? <br><br></h4>
+    </div>
+    <div class="container">
+
+      <div class="card">
+        <div title="atardecer en nueva york" class="cover-small" style="background-image: url(./imagenes/ciudad.jpg)">
+        </div>
+        <h4>Ciudades</h4>
+        <h5>Diversión y cultura</h5>
+        <p>Visitá las grandes ciudades del mundo, conocé su cultura y gastronomía con nosotros.</p>
+        <a href="./ciudad.html">Conocer más</a>
+      </div>
+
+      <div class="card">
+        <div title="pradera y montaña" class="cover-small" style="background-image: url(./imagenes/montaña.jpg)"> </div>
+        <h4>Montañas</h4>
+        <h5>Aventura y deportes</h5>
+        <p>Encontrá paisajes increíbles mientras recorres caminos llenos de aventuras.</p>
+        <a href="./montaña.html">Conocer más</a>
+      </div>
+
+      <div class="card">
+        <div title="camino a isla paradisiaca" class="cover-small" style="background-image: url(./imagenes/playa.jpg)">
+        </div>
+        <h4>Playas</h4>
+        <h5>Relax garantizado</h5>
+        <p>Encontrá la paz que necesitas descansando en increíbles playas.</p>
+        <a href="./playa.html">Conocer más</a>
+      </div>
+
+    </div>
+    <div class="planeacion">
+      <h4><br>Planeá tu viaje<br><br></h4>
+      <p>Encontrá todo lo que necesitas para planiﬁcar tu estadía en cualquiera de nuestros destinos. Te ofrecemos desde
+        los paseos y excursiones más tradicionales, hasta spa y noches de fiesta.</p>
+    </div>
+
+  </main>
+  <footer>
+    <div class="container-footer-all">
+
+      <div class="container-body">
+
+        <div class="colum1">
+          <h1>Mas información de la compañía</h1>
+
+          <p>Esta compañía se dedica a la venta de paquetes de viajes con un
+            conjunto de cosas que no se lo que estoy escribiendo, este
+            texto es solo para llenara informacion en el cuadro de informacion
+            de la compañia.</p>
+
+        </div>
+
+        <div class="colum2">
+
+          <h1>Redes Sociales</h1>
+
+          <div class="row">
+            <i class="fa-brands fa-facebook"></i>
+            <label><a href="https://www.facebook.com/">Síguenos en Facebook</a></label>
+          </div>
+          <div class="row">
+            <i class="fa-brands fa-twitter"></i>
+            <label><a href="https://twitter.com/?lang=es">Síguenos en Twitter</a></label>
+          </div>
+          <div class="row">
+            <i class="fa-brands fa-instagram"></i>
+            <label><a href="https://www.instagram.com/?hl=es-la">Síguenos en Instagram</a></label>
+          </div>
+          <div class="row">
+            <i class="fa-brands fa-pinterest"></i>
+            <label><a href="https://ar.pinterest.com/">Síguenos en Pinterest</a></label>
+          </div>
+
+
+        </div>
+
+        <div class="colum3">
+
+          <h1>Información Contactos</h1>
+
+          <div class="row2">
+            <i class="fa-solid fa-house"></i>
+            <label>La Romana 27, CABA, Argentina</label>
+          </div>
+
+          <div class="row2">
+            <i class="fa-solid fa-mobile"></i>
+            <label>+1-829-395-2064</label>
+          </div>
+
+          <div class="row2">
+            <i class="fa-solid fa-envelope"></i>
+            <label>viajando@gmail.com</label>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container-footer">
+      <div class="footer">
+        <div class="copyright">
+          © 2022 Todos los Derechos Reservados | <a href="./index.html">VIAJANDO</a>
+        </div>
+
+        <div class="information">
+          <a href="./empresa.html">Información Compañía</a> | <a href="pyp.html">Privacidad</a>
+          | <a href="./tyc.html">Términos y Condiciones</a>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+</body>
+
 </html>
