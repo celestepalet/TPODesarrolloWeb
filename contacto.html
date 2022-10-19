@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e6f9fe1ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./estilos/contacto.css">
+    <title>Viajando</title>
+    <script src="./JavaScript/contacto.js"></script>
+    <link rel="icon" href="./imagenes/iconoAvion.png">
+  </head>
+  <body>
+    <header class="header">
+        <div class="logo">
+          <a href="./index.html"><img src="./imagenes/iconoAvionGrande.png" alt="logo de la marca" ALIGN=center>
+            VIAJANDO</a>
+          </a>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="./index.html">Inicio</a></li>
+            <li class="desplegable"><a href="">Destinos</a>
+              <ul class="menu-desplegable">
+                <li><a class="item-desplegable" href="./montaña.html">Montaña</a></li>
+                <li><a class="item-desplegable" href="./playa.html">Playa</a></li>
+                <li><a class="item-desplegable" href="./ciudad.html">Ciudad</a></li>
+              </ul>
+            </li>
+            <li><a href="./empresa.html">Sobre Nosotros</a></li>
+          </ul>
+        </nav>
+        <a href="./contacto.html" class="btn"><button>Contacto</button></a>
+      </header>
+    
+      <div class="titulo-terminos">
+        <h1 style="font-size: 60px;">¿Necesitas Ayuda?</h1><br>
+        <p style="font-size: 25px;">Estamos aquí para ayudarte</p>
+
+    </div>
+    
+    
+    <div class="contenedor">
+     
+
+      <main class="contenido-formulario">
+        <section class="section">
+          <div class="contacto">
+            <p>Queremos que tu experiencia sea única, contanos que te gustaría vivir en tu viaje.</p>
+            <p>Podes dejarnos consultas, sugerencias, también podes acercar a nuestras oficias para que te atendamos personalmente.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi officia temporibus.</p>
+            <p>Thames 2331, CABA.</p>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.844127352382!2d-58.42755958103925!3d-34.582810410547886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58470b2dc4f%3A0x956fe2a1ee4986bd!2sThames%202331%2C%20C1425%20FIG%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1666200304807!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <aside class="aside">
+          <div class="titulo-form">
+            <h2>Contactanos</h2>
+          </div>
+          <div class="formulario">
+            <form name="formval">
+              <div class="form-group">
+                <label for="nombre">Nombre *</label>
+                <input class="form-control" id="nombre" type="text" name="nombre" placeholder="Ingresa tu nombre..."/>
+              </div>
+              <div class="form-group">
+                <label for="apellido">Apellido *</label>
+                <input class="form-control" id="apellido" type="text" name="apellido" placeholder="Ingresa tu apellido..."/>
+              </div>
+              <div class="form-group">
+                <label for="pais">País *</label>
+                <input class="form-control" id="pais" type="text" name="pais" placeholder="Ingresa tu país de residencia..."/>
+              </div>
+              <div class="form-group">
+                <label for="ciudad">Destino de interés</label>
+                <input class="form-control" id="ciudad" type="text" name="ciudad" placeholder="Ingresa el destino que te interesa..."/>
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono *</label>
+                <input class="form-control" id="telefono" type="tel" name="telefono" placeholder="Ingresa tu número de teléfono..."/>
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input class="form-control"  id="email" type="email" name="email" placeholder="Ingresa tu correo electrónico"/>
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Mensaje, contanos que experiencias queres vivir en tu viaje.</label><br>
+                <textarea class="textinput" placeholder="Escribe tu mensaje..."></textarea>
+              </div>
+              <div class="form-group">
+                <div class="checkbox">
+                  <label>
+                    <br>
+                    <input type="checkbox"> ¡Quiero recibir novedades!
+                  </label>
+                </div>
+              </div>
+              <br>
+              <button type="button" class="btn btn-primary" onclick="validar_envia()">Enviar</button>
+            </form>
+          </div>
+        </aside> 
+      </main>
+      <footer>
+        <div class="container-footer-all">
+
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Mas información de la compañía</h1>
+
+                    <p>Esta compañía se dedica a la venta de paquetes de viajes con un
+                        conjunto de cosas que no se lo que estoy escribiendo, este
+                        texto es solo para llenara informacion en el cuadro de informacion
+                        de la compañia.</p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Redes Sociales</h1>
+
+                    <div class="row">
+                        <i class="fa-brands fa-facebook"></i>
+                        <label><a href="https://www.facebook.com/">Síguenos en Facebook</a></label>
+                    </div>
+                    <div class="row">
+                        <i class="fa-brands fa-twitter"></i>
+                        <label><a href="https://twitter.com/?lang=es">Síguenos en Twitter</a></label>
+                    </div>
+                    <div class="row">
+                        <i class="fa-brands fa-instagram"></i>
+                        <label><a href="https://www.instagram.com/?hl=es-la">Síguenos en Instagram</a></label>
+                    </div>
+                    <div class="row">
+                        <i class="fa-brands fa-pinterest"></i>
+                        <label><a href="https://ar.pinterest.com/">Síguenos en Pinterest</a></label>
+                    </div>
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Información Contactos</h1>
+
+                    <div class="row2">
+                        <i class="fa-solid fa-house"></i>
+                        <label>Thames 2331, CABA, Argentina</label>
+                    </div>
+
+                    <div class="row2">
+                        <i class="fa-solid fa-mobile"></i>
+                        <label>+1-829-395-2064</label>
+                    </div>
+
+                    <div class="row2">
+                        <i class="fa-solid fa-envelope"></i>
+                        <label>viajando@gmail.com</label>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-footer">
+            <div class="footer">
+                <div class="copyright">
+                    © 2022 Todos los Derechos Reservados | <a href="./index.html">VIAJANDO</a>
+                </div>
+
+                <div class="information">
+                    <a href="./empresa.html">Información Compañía</a> | <a href="pyp.html">Privacidad</a>
+                    | <a href="./tyc.html">Términos y Condiciones</a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    </div>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
